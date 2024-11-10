@@ -1,0 +1,55 @@
+@import url(../global/global.css);
+@import url(../global/header.css);
+
+
+body{
+    font-family: "Karla", sans-serif;
+    background-color: #d2d2d2;
+}
+
+
+.inscricao-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .inscricao-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inscricao-container form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .inscricao-container form input,
+  .inscricao-container form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inscricao-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #808080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .inscricao-container form button:hover {
+    background-color: #5f0202;
+  }
