@@ -1,2 +1,28 @@
 @import url(../global/global.css);
 @import url(../global/header.css);
+
+body {
+    font-family: "Noto-Serif", sans-serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #e7d7b4;
+  }
+
+
+  .pontos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .pontos .turisticos {
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+    
+  }
+
+  .pontos img {
+    border-radius: 5px;
+  }

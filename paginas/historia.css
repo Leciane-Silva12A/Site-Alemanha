@@ -1,2 +1,74 @@
-@import url(../global/global.css);
 @import url(../global/header.css);
+@import url(../global/global.css);
+
+body {
+    color: #000;
+    background-color: #e7d7b4;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.historia {
+    height: 400px;
+    flex: 1 1 calc(33.333% - 40px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.historia:hover {
+    transform: scale(1.05);
+}
+
+.hidden-text {
+    display: none; 
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    transition: opacity 0.3s ease;
+}
+
+.historia.active .hidden-text {
+    display: block; 
+    opacity: 1;
+}
+
+.reveal-btn {
+    display: flex;
+    justify-self: center;
+    background-color: #5e656d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reveal-btn:hover {
+    background-color: #0056b3;
+}
